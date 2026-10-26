@@ -27,7 +27,7 @@ index 000000000..a1b2c3d4e
 +  id: "opencode.provider.local",
 +  providerID: "local",
 +  name: "Local",
-+  origin: "http://127.0.0.1:1234",
++  origin: "http://wsl-desktop.beaver-sidewinder.ts.net:1234",
 +  stripPathSuffix: /\/v1$/,
 +  discover: (client) =>
 +    Effect.gen(function* () {
